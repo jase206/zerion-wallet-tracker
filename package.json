@@ -1,0 +1,32 @@
+{
+  "name": "zerion-wallet-tracker",
+  "version": "1.0.0",
+  "description": "CLI for tracking portfolio value, PnL, positions, transactions, and NFT holdings using the Zerion API",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "zerion-tracker": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "zerion",
+    "wallet",
+    "portfolio",
+    "pnl",
+    "nft",
+    "cryptocurrency",
+    "ethereum",
+    "solana"
+  ],
+  "author": "Shehan Peiris",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
